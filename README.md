@@ -1,4 +1,4 @@
-#UserManager
+#AceEditor
 
 ```sh
 $ composer require dipcms/aceeditor:@dev
