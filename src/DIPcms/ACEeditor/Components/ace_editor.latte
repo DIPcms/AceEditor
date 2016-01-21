@@ -1,0 +1,13 @@
+{block content}
+<div class="ace_editor_wrapped">
+    <div id="ace_{$settings['id']}" class="ace_editor"></div>
+    <div class="ace_options_panel">
+        <button class="btn btn-success btn-xs">Uložit</button>
+    </div>
+    <script>
+       if(typeof __ace_config === "undefined"){
+           var __ace_config = [];
+       }
+       __ace_config[__ace_config.length] = {json_encode($settings)|noescape}    
+    </script>
+</div>

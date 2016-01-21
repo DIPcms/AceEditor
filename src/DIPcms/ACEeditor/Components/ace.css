@@ -1,0 +1,21 @@
+.ace_editor_wrapped{
+    position: relative;
+}
+
+.ace_editor{
+    min-height: 400px;
+    width: 100%;
+}
+
+.ace_options_panel{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 9;
+    padding: 10px;
+    display:none;
+}
+
+.ace_options_panel.active{
+    display: block;
+}
