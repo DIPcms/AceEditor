@@ -25,10 +25,9 @@ How to use
 	class HomepagePresenter extends Nette\Application\UI\Presenter{
 		
 		/**
-	     	 *
-	     	 * @var ACEeditor
-	     	 */
-	    	private $ace_editor;
+		 * @var ACEeditor
+		 */
+		private $ace_editor;
 			
 		public function __construct(ACEeditor $ace_editor){
 		        $this->ace_editor = $ace_editor;
@@ -37,10 +36,9 @@ How to use
 		
 		
 		/**
-	     	 * 
-	     	 * @return \DIPcms\ACEeditor\Components\Editor
-	     	 */
-	    	public function createComponentAce() {
+		 * @return \DIPcms\ACEeditor\Components\Editor
+		 */
+		public function createComponentAce() {
 	        
 	        	$ace = $this->ace_editor->createComponent();
 	        	
