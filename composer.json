@@ -19,7 +19,10 @@
                 "kdyby/doctrine": "~3.0.0"
 	},
 	"require-dev": {
-		"nette/tester": "@dev"
+		"dipcms/scripter": "~1.0",
+		"nette/di": "~2.2",
+                "latte/latte": "~2.2",
+                "kdyby/doctrine": "~3.0.0"
 	},
 	"autoload": {
 		"psr-0": {
