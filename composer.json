@@ -13,7 +13,7 @@
 	],
 	
 	"require": {
-                "dipcms/scripter": "~1.0@dev",
+                "dipcms/scripter": "~1.0",
 		"nette/di": "~2.2",
                 "latte/latte": "~2.2",
                 "kdyby/doctrine": "~3.0.0"
