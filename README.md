@@ -4,7 +4,10 @@ How to install
 --------------
 
 ```sh
+
 $ composer require dipcms/aceeditor:@dev
+
+$ bower install ace-builds
 ```
 
 ```yaml  
