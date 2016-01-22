@@ -63,11 +63,21 @@ In the template, simply call
 ```html
 
 <head>
+	<script src="{$basePath}/bower_components/jquery/dist/jquery.min.js" type="text/javascript"></script>
+	<script src="{$basePath}/bower_components/ace-builds/src-min/ace.js" type="text/javascript"></script>
+	
+	<script src="{$basePath}/js/DIP.js" type="text/javascript"></script>
 	{scripter}
 </head>
 
 <body>
 	{control ace}
+	
+	<script>
+	        $(document).ready(function(){
+	            DIP.Run();
+	        });
+	</script>
 </body>
 
 ```
