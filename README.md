@@ -62,6 +62,10 @@ In the template, simply call
 
 ```html
 
+<head>
+	{scripter}
+</head>
+
 <body>
 	{control ace}
 </body>
